@@ -1,0 +1,12 @@
+table{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+tbody tr:nth-of-type(odd){
+    background-color: darkgray;
+} /* "odd" vai pegar apenas linhas inpares e o "even" vai pegar apenas as pares */
+tr, td{
+    padding: 1em;
+    border: 1px solid #000;
+}
